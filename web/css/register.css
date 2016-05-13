@@ -1,0 +1,139 @@
+body * {
+font-family: Segoe UI;
+font-size: 14px;
+color: #454545;
+}
+
+.silverbutton
+{
+	border-top:1px solid #ced6d8;border-left:1px solid #ced6d8;border-right:1px solid #333637;border-bottom:1px solid #333637;
+	-moz-border-radius:4px;web-kit_radius:4px;border-radius:4px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfcfd', endColorstr='#e4eff1');
+	background:-webkit-gradient(linear, left top, left bottom, from(#fbfcfd), to(#e4eff1));background:-moz-linear-gradient(top, #fbfcfd, #e4eff1);
+	text-align:center;font-size:16px;font-family:Segoe UI;color:#01aed4;padding:5px 15px 5px 15px;cursor:pointer;
+	background-color:#ced6d8;
+}
+.greenbutton
+{
+	min-width:130px;border-top:1px solid #42b806;border-left:1px solid #42b806;border-right:1px solid #0f2901;border-bottom:1px solid #0f2901;
+	-moz-border-radius:4px;web-kit_radius:4px;border-radius:4px;background:-webkit-gradient(linear, left top, left bottom, from(#49cc06), to(#42b706));
+	background:-moz-linear-gradient(top, #49cc06, #42b706);text-align:center;font-size:16px;font-family:Segoe UI;color:#ffffff;padding:5px 15px 5px 15px;cursor:pointer;
+	background-color:#42b806;
+}
+.greenbuttonshort
+{
+	border-top:1px solid #42b806;border-left:1px solid #42b806;border-right:1px solid #0f2901;border-bottom:1px solid #0f2901;
+	-moz-border-radius:4px;web-kit_radius:4px;border-radius:4px;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#49cc06', endColorstr='#42b706');
+	background:-webkit-gradient(linear, left top, left bottom, from(#49cc06), to(#42b706));background:-moz-linear-gradient(top, #49cc06, #42b706);
+	text-align:center;font-size:16px;font-family:Segoe UI;color:#ffffff;padding:5px 15px 5px 15px;cursor:pointer;
+	background-color:#42b806;
+}
+
+.basic_div,
+#find-jobs-header-mobile,
+#top-right,
+.basic_div,
+.scptest_div,
+.basic_div
+{
+	display:none;
+}
+
+.sign-up-main-content { width:800px; margin:40px auto 0px auto; font-size:14px; }
+.sign-up-main-content div { margin:20px 0; }
+.sign-up-main-content h1 { font-size:22px; font-weight: normal; }
+.sign-up-main-content h1,
+.sign-up-main-content h2
+{
+	margin:16px 0;
+}
+.sign-up-main-content h2,
+.sign-up-main-content h2 a,
+.sign-up-main-content div.section,
+.sign-up-main-content div.section *
+{
+	font-size:18px;
+}
+
+.sign-up-main-content div.input-row { clear:both; display:block; margin:0; padding:6px; }
+.sign-up-main-content div.input-row label { float:left; display:block; width:165px; padding:6px; text-align:right; }
+.sign-up-main-content div.input-row label.select-label { padding-top:4px; }
+.sign-up-main-content label.helper-text { margin-left:185px; width:300px; display:block; }
+.sign-up-main-content div.input-row label.checkbox-label { width:auto; text-align:left; }
+.sign-up-main-content div.input-row input[type="text"],
+.sign-up-main-content div.input-row input[type="email"],
+.sign-up-main-content div.input-row input[type="password"]
+{
+	width:300px;
+}
+.sign-up-main-content div.input-row input[type="text"].short { width:125px; }
+.sign-up-main-content div.input-row input[type="checkbox"] { float:left; margin-top:10px; }
+.sign-up-main-content div.buttons { padding-top:20px; }
+
+.sign-up-main-content div.buttons { padding:0; display:flex; flex-direction:row; justify-content:center; }
+.sign-up-main-content div.buttons div { float:left; margin:6px; }
+
+@media screen and (max-device-width: 960px)
+{
+	.sign-up-main-content h1,
+	.sign-up-main-content div.buttons input[type="submit"]
+	{
+		font-size:36pt;
+	}
+	.sign-up-main-content,
+	.sign-up-main-content *,
+	.sign-up-main-content h2,
+	.sign-up-main-content h2 a,
+	.sign-up-main-content div.section,
+	.sign-up-main-content div.section *
+	{
+		font-size:32pt;
+	}
+	.sign-up-main-content label.helper-text *
+	{
+		font-size:26pt;
+	}
+	.sign-up-main-content
+	{
+		width:90%;
+	}
+	.sign-up-main-content h1,
+	.sign-up-main-content h2
+	{
+	 	padding-top:20px; font-family:Myriad Pro, Segoe UI, sans-serif; font-weight:bold;
+	}
+	.sign-up-main-content h2,
+	.sign-up-main-content h2 a
+	{
+		font-weight:normal;
+	}
+	.sign-up-main-content div.section { margin:60px 0 20px 0; }
+	.sign-up-main-content div.input-row { margin-top:8px; }
+	.sign-up-main-content div.input-row label { width:100%; padding-left:0px; text-align:left; }
+	.sign-up-main-content label.helper-text { margin:0em 1em 1em 1em; width:inherit; }
+	.sign-up-main-content div.input-row label.checkbox-label { width:88%; }
+	.sign-up-main-content div.input-row label.not-on-mobile { display:none; }
+	.sign-up-main-content div.input-row input[type="text"],
+	.sign-up-main-content div.input-row input[type="email"],
+	.sign-up-main-content div.input-row input[type="password"],
+	.sign-up-main-content div.input-row input[type="text"].short,
+	.sign-up-main-content div.input-row select
+	{
+		width:94%;
+	}
+	.sign-up-main-content div.input-row input[type="email"] { height:inherit; line-height:inherit; }
+	.sign-up-main-content div.input-row input[type="checkbox"] { margin:18px; padding:0.25em; }
+	.sign-up-main-content div.buttons { padding:6% 20%; text-align:center; }
+	.sign-up-main-content div.buttons input.greenbutton,
+	.sign-up-main-content div.buttons a.greenbutton,
+	.sign-up-main-content div.buttons a.silverbutton
+	{
+		padding:24px;
+		font-weight:bold;
+	}
+	.sign-up-main-content div.buttons input.greenbutton { margin-top:40px; }
+	.sign-up-main-content div.buttons div {	margin-top:80px; }	
+	.sign-up-main-content div.buttons div { margin-top: 40px; }
+	.sign-up-main-content div.buttons { padding-top:0; }
+	.sign-up-main-content div.buttons { padding:0% 10%; }
+	.sign-up-main-content div.buttons div { float:none; margin:80px 0px 0px 0px; }
+}
